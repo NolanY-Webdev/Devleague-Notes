@@ -1,0 +1,92 @@
+DEVLEAGUE NOTES
+
+
+
+MISC
+
+Package managers install programs or groups of files.
+Allows user to remove, update and (sometimes) create a package.
+
+Linter is pattern matching according to JS syntax. Highlights errors in code.
+
+A shell is part of an operating system that is the user interface that lets you talk to the Kernel. A kernel communicates to your systems hardware. The shell is the interface, Bash/Zshell are examples of this.
+
+
+
+JAVASCRIPT
+
+JS Runtime Environment
+  Anywhere Javascript can run and be evaluated.
+repl = "Read Evaluate Print Notes"
+Running "node" in terminal creates a javascript runtime environment (a repl)
+
+  DEBUGGING
+
+
+  ARRAYS
+  Lists of values, can access values by order of index. Can NOT access values by names of elements.
+  One way to pass data around through an application.
+  Lets programmes create lists that can be expanded.
+  When making arrays use the var ___ = []; Not the constructor.
+    MUTATOR METHODS - modify array
+    pop - removes the last element of the array and returns that removed value.
+    push - adds new elements to the end of the array, returns the new length of the array
+    unshift - like push but adds new element on to the start of the array.
+    shift - like pop, but for the start; Removes an element from the beginning of the array, returns the removed value
+    reverse - reverses an array in the exact opposite order, no return value
+    sort - sorts the contents of an array, no return value <SORTS BASED ON UNICODE VALUES BY DEFAULT>
+    splice - can ADD OR REMOVE existing elements from an array, will return an array of the removed elements.
+
+
+
+    ACCESSOR METHODS - do not modify array returns a 'representation' of the array
+    concat - takes a new array(s) and merges it with the calling array, returns the new array as a merger of the two arrays. Original arrays remain unchanged.
+    join - returns a new string with all elements seperated by a seperator (the stuff inside here upon call).
+    slice - copies a range of elements from an array, returns a new array with defined range of elements. If no end is instructed slice will work till end of array. NEGATIVE end values returns n indexes from the END of the array.
+    indexOf - finds the FIRST index value of an element in an array, returns a number of the index where the element was found.
+      fromIndex - specifies a place to start the search
+    lastindexOf - finds the LAST index value of an elementy in an array, returns the index value of where the element was LAST found.
+    toString - copy a range of elements from an array, returns a new string with those elements. Original array remains unchanged.
+    toLocaleString
+
+
+
+
+
+
+GITHUB
+git status - shows status
+gst - same as git status
+git diff - shows changes, Q quits this screen
+gd - get diff shortcut
+git add <FILE> - adds file to be committed
+git commit -m "commit message" - commits file to github
+git push - pushes commits to github
+git clone <ssh directory> - clones directory to current working directory
+git init - initializes a directory as a git repository in current working directory
+
+
+
+
+
+
+TERMINAL
+
+normal unprivileged users get $ <commands>
+superusers get # <commands>
+"sudo" makes you a super root user.
+sudo <command> runs command as superuser.
+CONTROL + C TO ABORT ABORT ABORT!
+When typing pressing TAB shows options for completing the code. Pressing TAB twice lets you pick one of the possible auto completion options.
+
+COMMANDS
+node - creates javascript runtime environment
+cd - changes directory
+ls - lists available files
+  -a - shows hidden files as well
+man - opens the manual
+mkdir - makes a directory
+rmdir - removes a directory
+touch - creates or updates a file
+sudo - run as super root user
+___ !$ - argument that references the last argument usedœ
